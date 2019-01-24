@@ -15,6 +15,7 @@ spotbugs{ignoreFailures = false}
 apply plugin: 'checkstyle'
 
 checkstyle {
+  configFile = file('checkstyle.xml')
   toolVersion "8.6"
 }
 
@@ -47,5 +48,5 @@ dependencies {
 }
 
 // Define the main class for the application
-mainClassName = 'App'
+mainClassName = 'de.tud.cs.se.flashcards.Main'
 

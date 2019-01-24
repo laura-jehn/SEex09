@@ -66,7 +66,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=%APP_HOME%\lib\flashcards.jar;%APP_HOME%\lib\guava-20.0.jar
 
 @rem Execute flashcards
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %FLASHCARDS_OPTS%  -classpath "%CLASSPATH%" App %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %FLASHCARDS_OPTS%  -classpath "%CLASSPATH%" de.tud.cs.se.flashcards.Main %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
